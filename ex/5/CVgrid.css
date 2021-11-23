@@ -6,19 +6,21 @@
         transform: rotate(-180deg);
     }
     100%{
-        transform:rotate(360deg) 
+        transform:rotate(360deg) ;
     }
 }
 
 img{
-    width: 150%;
+    width: 50%;
     animation-name: RotatingOmer;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
+
+
 body{
-    background-color:pink;
+    background-color:beige;
 }
 *{
     font-family: sans-serif;
@@ -39,8 +41,9 @@ body{
     background-color: whitesmoke;
 }
 
+
 h4{
-    color: rgb(12, 14, 156);
+    color: black;
     text-decoration: underline;
     font-size: 17px;
 }
@@ -72,21 +75,24 @@ h4{
 }
 
 div{
-    border: 2px solid rgb(148, 238, 156);
+    border: 2px solid grey;
 }
 
-div div{
+
+
+div div{ 
     height: 100px;
     width: 200px;
     padding: 20px;
     margin: 20px;
-    background-color: rgb(231, 240, 228);
+    background-color: white;
 }
 
 @media only screen and (max-width: 1000px) {
     body{
         background-color: turquoise;
     }
+
 }
 
 
@@ -98,7 +104,7 @@ div div{
         transform: rotate(-180deg);
     }
     100%{
-        transform:rotate(360deg);
+        transform:rotate(360deg) ;
     }
 }
 
@@ -107,4 +113,5 @@ img{
     animation-name: RotatingOmer;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+
 }
